@@ -2,20 +2,32 @@
 <html>
     <head>
         <title>Diego Pereira Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <header>
+            <nav class="menu-fijo">
+                <ul>
+                  <a href="#acerca-de-mi">Acerca de mí</a>
+                  <a href="#habilidades">Habilidades</a>
+                  <a href="#experiencia">Experiencia</a>
+                  <a href="#proyectos">Proyectos</a>
+                  <a href="#contacto">Contacto</a>
+                </ul>
+              </nav>
+            <img src="coding.png" alt="perfil">
             <h1>Diego Pereira.</h1>
             <h2>Desarrollador Web Full Stack.</h2>
         </header>
         <main>
-            <section>
+            <section id="acerca-de-mi">
                 <h2>Acerca de mi</h2>
                 <p>
                     Soy un desarrollador autodicta que me encanta todo el area del desarrollo, me gusta aforntar problemas de informática y resolverlo de manera eficiente. Estoy siempre en la vanguardia de las nuevas tecnología
                 </p>                   
             </section>
-            <section>
+            <section id="habilidades">
                 <h2>Habilidades</h2>
                 <ul>
                     <li>HTML</li>
@@ -26,7 +38,7 @@
                 </ul>
             </section>
 
-            <section>
+            <section id="experiencia">
                 <h2>Experiencia</h2>
                 <ul>
                     <li><strong>InforGraf</strong></li>
@@ -35,22 +47,22 @@
                     </ul>
                 </ul>
             </section>
-            <section>
+            <section id="proyectos">
                 <h2>Proyectos</h2>
                 <ul>
-                    <li>InforGrafSystem: Sistema de gestión de mi empresa</li>
+                    <li><a href="#">InforGrafSystem:</a> Sistema de gestión de mi empresa</li>
                 </ul>
             </section>
-            <section>
+            <section id="contactos">
                 <h2>Contacto</h2>
                 <ul>
-                    <li><a href="https://api.whatsapp.com/send?phone=595984281282">Whatsapp</a></li>
-                    <li><a href="https://www.instagram.com/diegooo_pereira/">Instagram</a></li>
-                    <li><a href="https://github.com/diegopereira94">GitHub</a></li>
+                    <li><a href="https://github.com/diegopereira94" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=595984281282" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.instagram.com/diegooo_pereira/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                 </ul>
             </section>
         </main>
-        <hr>
+        
         <footer>
             <p>Copyright &copy; 2024</p>
         </footer>
